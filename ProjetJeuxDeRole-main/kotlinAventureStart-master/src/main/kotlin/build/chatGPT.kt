@@ -7,7 +7,7 @@ import java.net.http.HttpResponse
 import com.google.gson.*
 
 class GPTService {
-    val apiKey = "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"
+    val apiKey = ""
     fun fetchHistoire(prompt: String):String {
         val gpt3Endpoint = "https://api.openai.com/v1/chat/completions"
         val proxyHost = "172.16.0.51";
